@@ -1,1 +1,0 @@
-https://www.vultr.com/docs/install-wekan-on-debian-10

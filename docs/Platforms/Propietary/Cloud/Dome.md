@@ -1,6 +1,0 @@
-- Website: http://trydome.io
-- Location: USA
-- Free trial of WeKan Hosting at https://app.trydome.io/signup?package=wekan
-- Paid SaaS hosting at propietary backend
-- Hosted code examples at https://github.com/domeplatform
-- Developer info at https://www.trydome.io/developer

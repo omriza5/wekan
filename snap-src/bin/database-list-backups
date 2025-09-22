@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# List backups
-ls -al $SNAP_COMMON/db-backups/
