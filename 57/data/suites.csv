@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        This method tests the creation of a board.
+        ","6964","test_board_creation","tests","Wed Sep 24 12:22:10 UTC 2025","passed","Wed Sep 24 12:22:17 UTC 2025","TestHome","firefox - desktop [firefox 1200x800]","",""
+"
+        This method tests adding a card to a list.
+        ","45157","test_add_card_to_list","tests","Wed Sep 24 12:21:17 UTC 2025","passed","Wed Sep 24 12:22:02 UTC 2025","TestHome","firefox - desktop [firefox 1200x800]","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","6763","test_page_health","tests","Wed Sep 24 12:22:17 UTC 2025","passed","Wed Sep 24 12:22:24 UTC 2025","TestHome","firefox - desktop [firefox 1200x800]","",""
+"","6187","test_login_with_valid_credentials","tests","Wed Sep 24 12:22:30 UTC 2025","passed","Wed Sep 24 12:22:36 UTC 2025","TestLogin","firefox - desktop [firefox 1200x800]","",""
+"","5302","test_page_health","tests","Wed Sep 24 12:22:36 UTC 2025","passed","Wed Sep 24 12:22:41 UTC 2025","TestLogin","firefox - desktop [firefox 1200x800]","",""
+"
+        This method tests adding a list to a board.
+        ","7807","test_add_list_to_board","tests","Wed Sep 24 12:22:02 UTC 2025","passed","Wed Sep 24 12:22:10 UTC 2025","TestHome","firefox - desktop [firefox 1200x800]","",""
+"","6354","test_login_with_invalid_credentials","tests","Wed Sep 24 12:22:24 UTC 2025","passed","Wed Sep 24 12:22:30 UTC 2025","TestLogin","firefox - desktop [firefox 1200x800]","",""
