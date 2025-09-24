@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7354","test_login_with_valid_credentials","tests","Wed Sep 24 11:49:22 UTC 2025","passed","Wed Sep 24 11:49:29 UTC 2025","TestLogin","firefox - mobile","",""
+"","7237","test_login_with_invalid_credentials","tests","Wed Sep 24 11:49:14 UTC 2025","passed","Wed Sep 24 11:49:22 UTC 2025","TestLogin","firefox - mobile","",""
+"
+        This method tests adding a list to a board.
+        ","9747","test_add_list_to_board","tests","Wed Sep 24 11:48:49 UTC 2025","passed","Wed Sep 24 11:48:59 UTC 2025","TestHome","firefox - mobile","",""
+"","7005","test_page_health","tests","Wed Sep 24 11:49:29 UTC 2025","passed","Wed Sep 24 11:49:36 UTC 2025","TestLogin","firefox - mobile","",""
+"
+        This method tests adding a card to a list.
+        ","58207","test_add_card_to_list","tests","Wed Sep 24 11:47:51 UTC 2025","passed","Wed Sep 24 11:48:49 UTC 2025","TestHome","firefox - mobile","",""
+"
+        This method tests the creation of a board.
+        ","8095","test_board_creation","tests","Wed Sep 24 11:48:59 UTC 2025","passed","Wed Sep 24 11:49:07 UTC 2025","TestHome","firefox - mobile","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","7623","test_page_health","tests","Wed Sep 24 11:49:07 UTC 2025","passed","Wed Sep 24 11:49:14 UTC 2025","TestHome","firefox - mobile","",""
