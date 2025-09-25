@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        This method tests adding a card to a list.
+        ","60032","test_add_card_to_list","tests","Thu Sep 25 11:51:35 UTC 2025","broken","Thu Sep 25 11:52:35 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a list to a board.
+        ","10680","test_add_list_to_board","tests","Thu Sep 25 11:52:35 UTC 2025","passed","Thu Sep 25 11:52:46 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the creation of a board.
+        ","9066","test_board_creation","tests","Thu Sep 25 11:52:46 UTC 2025","passed","Thu Sep 25 11:52:55 UTC 2025","TestHome","test_home","",""
+"","9161","test_login_with_valid_credentials","tests","Thu Sep 25 11:53:14 UTC 2025","passed","Thu Sep 25 11:53:24 UTC 2025","TestLogin","test_login","",""
+"","9315","test_login_with_invalid_credentials","tests","Thu Sep 25 11:53:05 UTC 2025","passed","Thu Sep 25 11:53:14 UTC 2025","TestLogin","test_login","",""
+"","8836","test_page_health","tests","Thu Sep 25 11:53:24 UTC 2025","passed","Thu Sep 25 11:53:32 UTC 2025","TestLogin","test_login","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","9755","test_page_health","tests","Thu Sep 25 11:52:55 UTC 2025","passed","Thu Sep 25 11:53:05 UTC 2025","TestHome","test_home","",""
