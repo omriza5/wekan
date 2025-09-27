@@ -1,0 +1,31 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","9574","test_page_health","tests","Sat Sep 27 11:35:37 UTC 2025","passed","Sat Sep 27 11:35:46 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the creation of a board.
+        ","9915","test_board_creation","tests","Sat Sep 27 11:34:08 UTC 2025","passed","Sat Sep 27 11:34:18 UTC 2025","TestHome","test_home","",""
+"","9136","test_login_with_valid_credentials","tests","Sat Sep 27 11:35:56 UTC 2025","passed","Sat Sep 27 11:36:05 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests adding a list to a board.
+        ","10982","test_add_list_to_board","tests","Sat Sep 27 11:33:57 UTC 2025","passed","Sat Sep 27 11:34:08 UTC 2025","TestHome","test_home","",""
+"","9112","test_page_health","tests","Sat Sep 27 11:36:05 UTC 2025","passed","Sat Sep 27 11:36:14 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests the member settings menu functionality.
+        ","19809","test_member_setting_menu_open","tests","Sat Sep 27 11:34:47 UTC 2025","failed","Sat Sep 27 11:35:07 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the member settings menu functionality.
+        ","19855","test_member_setting_menu_close","tests","Sat Sep 27 11:34:27 UTC 2025","passed","Sat Sep 27 11:34:47 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a card to a list.
+        ","39364","test_add_card_to_list","tests","Sat Sep 27 11:33:16 UTC 2025","passed","Sat Sep 27 11:33:56 UTC 2025","TestHome","test_home","",""
+"","9234","test_login_with_invalid_credentials","tests","Sat Sep 27 11:35:46 UTC 2025","passed","Sat Sep 27 11:35:56 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests the notifications menu functionality.
+        ","19786","test_notifications_menu_close","tests","Sat Sep 27 11:35:07 UTC 2025","passed","Sat Sep 27 11:35:27 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the logout functionality.
+        ","9703","test_logout","tests","Sat Sep 27 11:34:18 UTC 2025","passed","Sat Sep 27 11:34:27 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the notifications menu functionality.
+        ","9870","test_notifications_menu_open","tests","Sat Sep 27 11:35:27 UTC 2025","passed","Sat Sep 27 11:35:37 UTC 2025","TestHome","test_home","",""

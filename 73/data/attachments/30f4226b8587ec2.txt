@@ -1,0 +1,24 @@
+Error in is_notifications_menu_displayed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x55ab326fbcba <unknown>
+#1 0x55ab321708e0 <unknown>
+#2 0x55ab32177518 <unknown>
+#3 0x55ab3217a06a <unknown>
+#4 0x55ab3220ec9e <unknown>
+#5 0x55ab321e8072 <unknown>
+#6 0x55ab3220dc63 <unknown>
+#7 0x55ab321e7e43 <unknown>
+#8 0x55ab321b49a8 <unknown>
+#9 0x55ab321b5621 <unknown>
+#10 0x55ab326bf8b8 <unknown>
+#11 0x55ab326c35e2 <unknown>
+#12 0x55ab326a6683 <unknown>
+#13 0x55ab326c4135 <unknown>
+#14 0x55ab3268b80f <unknown>
+#15 0x55ab326e84c8 <unknown>
+#16 0x55ab326e86a2 <unknown>
+#17 0x55ab326fadc3 <unknown>
+#18 0x7f6a8b09caa4 <unknown>
+#19 0x7f6a8b129c6c <unknown>
+
