@@ -1,31 +1,31 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "
-        This method tests the member settings menu functionality.
-        ","7847","test_member_setting_menu_open","tests","Sat Sep 27 10:52:46 UTC 2025","failed","Sat Sep 27 10:52:53 UTC 2025","TestHome","test_home","",""
-"
-        This method tests adding a card to a list.
-        ","33283","test_add_card_to_list","tests","Sat Sep 27 10:51:30 UTC 2025","passed","Sat Sep 27 10:52:03 UTC 2025","TestHome","test_home","",""
-"
-        This method tests the notifications menu functionality.
-        ","17936","test_notifications_menu_close","tests","Sat Sep 27 10:52:53 UTC 2025","passed","Sat Sep 27 10:53:11 UTC 2025","TestHome","test_home","",""
-"
-        This method tests the member settings menu functionality.
-        ","17892","test_member_setting_menu_close","tests","Sat Sep 27 10:52:28 UTC 2025","passed","Sat Sep 27 10:52:46 UTC 2025","TestHome","test_home","",""
-"
-        This method checks if the home page is healthy by verifying the title.
-        ","7769","test_page_health","tests","Sat Sep 27 10:53:19 UTC 2025","passed","Sat Sep 27 10:53:27 UTC 2025","TestHome","test_home","",""
-"
-        This method tests the notifications menu functionality.
-        ","7818","test_notifications_menu_open","tests","Sat Sep 27 10:53:11 UTC 2025","passed","Sat Sep 27 10:53:19 UTC 2025","TestHome","test_home","",""
-"","7109","test_page_health","tests","Sat Sep 27 10:53:42 UTC 2025","passed","Sat Sep 27 10:53:49 UTC 2025","TestLogin","test_login","",""
+        This method tests the creation of a board.
+        ","9353","test_board_creation","tests","Sat Sep 27 11:01:44 UTC 2025","passed","Sat Sep 27 11:01:53 UTC 2025","TestHome","test_home","",""
+"","8396","test_login_with_valid_credentials","tests","Sat Sep 27 11:03:17 UTC 2025","passed","Sat Sep 27 11:03:26 UTC 2025","TestLogin","test_login","",""
 "
         This method tests adding a list to a board.
-        ","8846","test_add_list_to_board","tests","Sat Sep 27 10:52:03 UTC 2025","passed","Sat Sep 27 10:52:12 UTC 2025","TestHome","test_home","",""
-"","7231","test_login_with_valid_credentials","tests","Sat Sep 27 10:53:34 UTC 2025","passed","Sat Sep 27 10:53:42 UTC 2025","TestLogin","test_login","",""
+        ","10170","test_add_list_to_board","tests","Sat Sep 27 11:01:34 UTC 2025","passed","Sat Sep 27 11:01:44 UTC 2025","TestHome","test_home","",""
+"","8172","test_page_health","tests","Sat Sep 27 11:03:26 UTC 2025","passed","Sat Sep 27 11:03:34 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests the notifications menu functionality.
+        ","9236","test_notifications_menu_close","tests","Sat Sep 27 11:02:41 UTC 2025","passed","Sat Sep 27 11:02:50 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a card to a list.
+        ","44516","test_add_card_to_list","tests","Sat Sep 27 11:00:49 UTC 2025","passed","Sat Sep 27 11:01:34 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the notifications menu functionality.
+        ","9160","test_notifications_menu_open","tests","Sat Sep 27 11:02:50 UTC 2025","passed","Sat Sep 27 11:02:59 UTC 2025","TestHome","test_home","",""
+"","8758","test_login_with_invalid_credentials","tests","Sat Sep 27 11:03:08 UTC 2025","passed","Sat Sep 27 11:03:17 UTC 2025","TestLogin","test_login","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","9032","test_page_health","tests","Sat Sep 27 11:02:59 UTC 2025","passed","Sat Sep 27 11:03:08 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the member settings menu functionality.
+        ","19228","test_member_setting_menu_close","tests","Sat Sep 27 11:02:02 UTC 2025","passed","Sat Sep 27 11:02:22 UTC 2025","TestHome","test_home","",""
 "
         This method tests the logout functionality.
-        ","7822","test_logout","tests","Sat Sep 27 10:52:20 UTC 2025","passed","Sat Sep 27 10:52:28 UTC 2025","TestHome","test_home","",""
-"","7438","test_login_with_invalid_credentials","tests","Sat Sep 27 10:53:27 UTC 2025","passed","Sat Sep 27 10:53:34 UTC 2025","TestLogin","test_login","",""
+        ","9141","test_logout","tests","Sat Sep 27 11:01:53 UTC 2025","passed","Sat Sep 27 11:02:02 UTC 2025","TestHome","test_home","",""
 "
-        This method tests the creation of a board.
-        ","7945","test_board_creation","tests","Sat Sep 27 10:52:12 UTC 2025","passed","Sat Sep 27 10:52:20 UTC 2025","TestHome","test_home","",""
+        This method tests the member settings menu functionality.
+        ","19140","test_member_setting_menu_open","tests","Sat Sep 27 11:02:22 UTC 2025","failed","Sat Sep 27 11:02:41 UTC 2025","TestHome","test_home","",""
