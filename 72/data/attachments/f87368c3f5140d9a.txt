@@ -1,0 +1,24 @@
+Error in is_notifications_menu_displayed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="notifications-drawer"]"}
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55eeb1394cba <unknown>
+#1 0x55eeb0e098e0 <unknown>
+#2 0x55eeb0e5b580 <unknown>
+#3 0x55eeb0e5b771 <unknown>
+#4 0x55eeb0ea9864 <unknown>
+#5 0x55eeb0e8109d <unknown>
+#6 0x55eeb0ea6c63 <unknown>
+#7 0x55eeb0e80e43 <unknown>
+#8 0x55eeb0e4d9a8 <unknown>
+#9 0x55eeb0e4e621 <unknown>
+#10 0x55eeb13588b8 <unknown>
+#11 0x55eeb135c5e2 <unknown>
+#12 0x55eeb133f683 <unknown>
+#13 0x55eeb135d135 <unknown>
+#14 0x55eeb132480f <unknown>
+#15 0x55eeb13814c8 <unknown>
+#16 0x55eeb13816a2 <unknown>
+#17 0x55eeb1393dc3 <unknown>
+#18 0x7f63f789caa4 <unknown>
+#19 0x7f63f7929c6c <unknown>
+

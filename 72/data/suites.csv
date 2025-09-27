@@ -1,0 +1,31 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        This method tests the member settings menu functionality.
+        ","16689","test_member_setting_menu_close","tests","Sat Sep 27 10:43:19 UTC 2025","passed","Sat Sep 27 10:43:36 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the logout functionality.
+        ","6931","test_logout","tests","Sat Sep 27 10:43:13 UTC 2025","passed","Sat Sep 27 10:43:19 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the member settings menu functionality.
+        ","16833","test_member_setting_menu_open","tests","Sat Sep 27 10:43:36 UTC 2025","failed","Sat Sep 27 10:43:53 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the notifications menu functionality.
+        ","6772","test_notifications_menu_open","tests","Sat Sep 27 10:44:10 UTC 2025","passed","Sat Sep 27 10:44:17 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the creation of a board.
+        ","7048","test_board_creation","tests","Sat Sep 27 10:43:05 UTC 2025","passed","Sat Sep 27 10:43:13 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a list to a board.
+        ","7900","test_add_list_to_board","tests","Sat Sep 27 10:42:58 UTC 2025","passed","Sat Sep 27 10:43:05 UTC 2025","TestHome","test_home","",""
+"","6158","test_page_health","tests","Sat Sep 27 10:44:36 UTC 2025","passed","Sat Sep 27 10:44:42 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests the notifications menu functionality.
+        ","16990","test_notifications_menu_close","tests","Sat Sep 27 10:43:53 UTC 2025","passed","Sat Sep 27 10:44:10 UTC 2025","TestHome","test_home","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","6623","test_page_health","tests","Sat Sep 27 10:44:17 UTC 2025","passed","Sat Sep 27 10:44:23 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a card to a list.
+        ","77413","test_add_card_to_list","tests","Sat Sep 27 10:41:40 UTC 2025","passed","Sat Sep 27 10:42:58 UTC 2025","TestHome","test_home","",""
+"","6332","test_login_with_valid_credentials","tests","Sat Sep 27 10:44:30 UTC 2025","passed","Sat Sep 27 10:44:36 UTC 2025","TestLogin","test_login","",""
+"","6137","test_login_with_invalid_credentials","tests","Sat Sep 27 10:44:23 UTC 2025","passed","Sat Sep 27 10:44:30 UTC 2025","TestLogin","test_login","",""

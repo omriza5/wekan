@@ -1,0 +1,24 @@
+Error in is_member_settings_menu_displayed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='header-title' and text()='Member Settings']"}
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x55582ea96cba <unknown>
+#1 0x55582e50b8e0 <unknown>
+#2 0x55582e55d580 <unknown>
+#3 0x55582e55d771 <unknown>
+#4 0x55582e5ab864 <unknown>
+#5 0x55582e58309d <unknown>
+#6 0x55582e5a8c63 <unknown>
+#7 0x55582e582e43 <unknown>
+#8 0x55582e54f9a8 <unknown>
+#9 0x55582e550621 <unknown>
+#10 0x55582ea5a8b8 <unknown>
+#11 0x55582ea5e5e2 <unknown>
+#12 0x55582ea41683 <unknown>
+#13 0x55582ea5f135 <unknown>
+#14 0x55582ea2680f <unknown>
+#15 0x55582ea834c8 <unknown>
+#16 0x55582ea836a2 <unknown>
+#17 0x55582ea95dc3 <unknown>
+#18 0x7febf429caa4 <unknown>
+#19 0x7febf4329c6c <unknown>
+
