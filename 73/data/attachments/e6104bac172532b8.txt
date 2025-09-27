@@ -1,0 +1,23 @@
+Error in is_member_settings_menu_displayed: Message: 
+Stacktrace:
+#0 0x5646c8a17cba <unknown>
+#1 0x5646c848c8e0 <unknown>
+#2 0x5646c84de580 <unknown>
+#3 0x5646c84de771 <unknown>
+#4 0x5646c852c864 <unknown>
+#5 0x5646c850409d <unknown>
+#6 0x5646c8529c63 <unknown>
+#7 0x5646c8503e43 <unknown>
+#8 0x5646c84d09a8 <unknown>
+#9 0x5646c84d1621 <unknown>
+#10 0x5646c89db8b8 <unknown>
+#11 0x5646c89df5e2 <unknown>
+#12 0x5646c89c2683 <unknown>
+#13 0x5646c89e0135 <unknown>
+#14 0x5646c89a780f <unknown>
+#15 0x5646c8a044c8 <unknown>
+#16 0x5646c8a046a2 <unknown>
+#17 0x5646c8a16dc3 <unknown>
+#18 0x7f0d35c9caa4 <unknown>
+#19 0x7f0d35d29c6c <unknown>
+
