@@ -77,6 +77,10 @@ template(name="header")
 
       +notifications
 
+      // Add your AI button here
+      a.header-ai-btn.js-ai-action(title="AI Assistant")
+        img(src="/ai-icon.png" alt="AI" height="24" width="24")
+
       if currentSetting.customHelpLinkUrl
         #header-help
           a(href="{{currentSetting.customHelpLinkUrl}}", title="{{_ 'help'}}", target="_blank", rel="noopener noreferrer")

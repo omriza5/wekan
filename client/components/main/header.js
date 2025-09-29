@@ -4,7 +4,7 @@ Meteor.subscribe('user-admin');
 Meteor.subscribe('boards');
 Meteor.subscribe('setting');
 Meteor.subscribe('announcements');
-Template.header.onCreated(function(){
+Template.header.onCreated(function () {
   const templateInstance = this;
   templateInstance.currentSetting = new ReactiveVar();
   templateInstance.isLoading = new ReactiveVar(false);
@@ -13,10 +13,21 @@ Template.header.onCreated(function(){
     onReady() {
       templateInstance.currentSetting.set(ReactiveCache.getCurrentSetting());
       let currSetting = templateInstance.currentSetting.curValue;
-      if(currSetting && currSetting !== undefined && currSetting.customLoginLogoImageUrl !== undefined && document.getElementById("headerIsSettingDatabaseCallDone") != null)
-        document.getElementById("headerIsSettingDatabaseCallDone").style.display = 'none';
-      else if(document.getElementById("headerIsSettingDatabaseCallDone") != null)
-        document.getElementById("headerIsSettingDatabaseCallDone").style.display = 'block';
+      if (
+        currSetting &&
+        currSetting !== undefined &&
+        currSetting.customLoginLogoImageUrl !== undefined &&
+        document.getElementById('headerIsSettingDatabaseCallDone') != null
+      )
+        document.getElementById(
+          'headerIsSettingDatabaseCallDone',
+        ).style.display = 'none';
+      else if (
+        document.getElementById('headerIsSettingDatabaseCallDone') != null
+      )
+        document.getElementById(
+          'headerIsSettingDatabaseCallDone',
+        ).style.display = 'block';
       return this.stop();
     },
   });
@@ -67,6 +78,11 @@ Template.header.events({
       window.localStorage.setItem('showDesktopDragHandles', 'true');
       location.reload();
     }
+  },
+  'click .js-ai-action'(event) {
+    event.preventDefault();
+    alert('AI button clicked!');
+    // Replace with your AI feature logic
   },
 });
 
