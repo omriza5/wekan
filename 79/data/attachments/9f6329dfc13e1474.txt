@@ -1,0 +1,23 @@
+Error in is_notifications_menu_displayed: Message: 
+Stacktrace:
+#0 0x5651aab51cba <unknown>
+#1 0x5651aa5c68e0 <unknown>
+#2 0x5651aa618580 <unknown>
+#3 0x5651aa618771 <unknown>
+#4 0x5651aa666864 <unknown>
+#5 0x5651aa63e09d <unknown>
+#6 0x5651aa663c63 <unknown>
+#7 0x5651aa63de43 <unknown>
+#8 0x5651aa60a9a8 <unknown>
+#9 0x5651aa60b621 <unknown>
+#10 0x5651aab158b8 <unknown>
+#11 0x5651aab195e2 <unknown>
+#12 0x5651aaafc683 <unknown>
+#13 0x5651aab1a135 <unknown>
+#14 0x5651aaae180f <unknown>
+#15 0x5651aab3e4c8 <unknown>
+#16 0x5651aab3e6a2 <unknown>
+#17 0x5651aab50dc3 <unknown>
+#18 0x7fa5bd49caa4 <unknown>
+#19 0x7fa5bd529c6c <unknown>
+
