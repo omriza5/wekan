@@ -80,6 +80,11 @@ template(name="header")
       // Add your AI button here
       a.header-ai-btn.js-ai-action(title="AI Assistant")
         img(src="/ai-icon.png" alt="AI" height="24" width="24")
+      if showAiPrompt
+        .ai-prompt-container
+          textarea.ai-prompt-input(placeholder="Type your prompt..." value=aiPromptText)
+          button.ai-prompt-submit(type="button") Submit
+          button.ai-prompt-close(type="button") Close
 
       if currentSetting.customHelpLinkUrl
         #header-help

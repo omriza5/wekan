@@ -1,3 +1,4 @@
+// ...existing code...
 import { ReactiveCache } from '/imports/reactiveCache';
 
 Meteor.subscribe('user-admin');
@@ -8,6 +9,8 @@ Template.header.onCreated(function () {
   const templateInstance = this;
   templateInstance.currentSetting = new ReactiveVar();
   templateInstance.isLoading = new ReactiveVar(false);
+  templateInstance.showAiPrompt = new ReactiveVar(false);
+  templateInstance.aiPromptText = new ReactiveVar('');
 
   Meteor.subscribe('setting', {
     onReady() {
@@ -33,6 +36,12 @@ Template.header.onCreated(function () {
   });
 });
 Template.header.helpers({
+  showAiPrompt() {
+    return Template.instance().showAiPrompt.get();
+  },
+  aiPromptText() {
+    return Template.instance().aiPromptText.get();
+  },
   wrappedHeader() {
     return !Session.get('currentBoard');
   },
@@ -58,6 +67,11 @@ Template.header.helpers({
 });
 
 Template.header.events({
+  'click .ai-prompt-close'(event, template) {
+    event.preventDefault();
+    template.showAiPrompt.set(false);
+    template.aiPromptText.set('');
+  },
   'click .js-create-board': Popup.open('headerBarCreateBoard'),
   'click .js-close-announcement'() {
     $('.announcement').hide();
@@ -79,10 +93,20 @@ Template.header.events({
       location.reload();
     }
   },
-  'click .js-ai-action'(event) {
+  'click .js-ai-action'(event, template) {
     event.preventDefault();
-    alert('AI button clicked!');
-    // Replace with your AI feature logic
+    template.showAiPrompt.set(true);
+  },
+  'input .ai-prompt-input'(event, template) {
+    template.aiPromptText.set(event.target.value);
+  },
+  'click .ai-prompt-submit'(event, template) {
+    event.preventDefault();
+    const prompt = template.aiPromptText.get();
+    // TODO: Send prompt to server here
+    alert('Prompt submitted: ' + prompt);
+    template.showAiPrompt.set(false);
+    template.aiPromptText.set('');
   },
 });
 
