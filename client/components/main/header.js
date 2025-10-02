@@ -103,8 +103,25 @@ Template.header.events({
   'click .ai-prompt-submit'(event, template) {
     event.preventDefault();
     const prompt = template.aiPromptText.get();
-    // TODO: Send prompt to server here
-    alert('Prompt submitted: ' + prompt);
+    // alert(`AI Prompt Submitted: ${prompt}`);
+    console.log(prompt);
+    // Send POST request to browser automation server
+    fetch('http://localhost:4004/browser-automation', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ steps: prompt }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        // You can handle the server response here if needed
+        console.log('Server response:', data);
+      })
+      .catch((error) => {
+        console.error('Error sending prompt:', error);
+      });
+
     template.showAiPrompt.set(false);
     template.aiPromptText.set('');
   },
