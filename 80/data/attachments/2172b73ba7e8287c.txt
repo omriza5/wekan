@@ -1,7 +1,0 @@
-Error in is_notifications_menu_displayed: Message: 
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
-NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
-dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
-
