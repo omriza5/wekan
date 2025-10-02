@@ -40,8 +40,8 @@ jobs:
           image-ref: '${{ secrets.DOCKERHUB_USERNAME }}/wekan:${{ env.WEKAN_IMAGE_TAG }}'
           format: 'table'
           severity: 'HIGH,CRITICAL'
-          ignore-unfixed: true
-          exit-code: 0
+          ignore-unfixed: false
+          exit-code: 1
 
       - name: Scan wekan-selenium Docker image for vulnerabilities
         uses: aquasecurity/trivy-action@master
@@ -49,8 +49,8 @@ jobs:
           image-ref: 'omriza5/wekan-selenium:1.0.0'
           format: 'table'
           severity: 'HIGH,CRITICAL'
-          ignore-unfixed: true
-          exit-code: 0
+          ignore-unfixed: false
+          exit-code: 1
 
       - name: Create .env file
         run: |
