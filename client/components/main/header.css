@@ -1,3 +1,44 @@
+/* AI Prompt Styles */
+.ai-prompt-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 100px;
+  height: 40vh;
+}
+.ai-prompt-input {
+  width: 500px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+  resize: vertical;
+}
+.ai-prompt-submit {
+  background: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ai-prompt-close {
+  background: #6a0707;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ai-prompt-submit:hover {
+  background: #2573a7;
+}
 #header {
   color: #fff;
   transition: background-color 0.4s;
@@ -82,11 +123,11 @@
 #header #header-main-bar h1.is-clickable.is-active,
 #header #header-main-bar .board-header-btn:hover:not(.is-disabled),
 #header #header-main-bar h1.is-clickable:hover:not(.is-disabled) {
-  background: rgba(0,0,0,0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 #header #header-main-bar .separator {
   margin: 2px 4px;
-  border-left: 1px solid rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   height: 24px;
   float: left;
 }
@@ -192,7 +233,7 @@
   margin-top: 1px;
 }
 #header-quick-access #header-user-bar .header-user-bar-name,
-#header-quick-access #header-help  {
+#header-quick-access #header-help {
   margin: 4px 8px 0 0;
   float: left;
 }
