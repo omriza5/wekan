@@ -35,7 +35,7 @@ New English strings of new features can be added as PRs to master branch file we
 ## WeKan ® feature requests and bugs
 
 Please add most of your questions as GitHub issue: [WeKan ® Feature Requests and Bugs](https://github.com/wekan/wekan/issues).
-It's better than at chat where details get lost when chat scrolls up.
+It's better than at chat where details get lost when chat scrolls up..
 
 ## Discussions
 
