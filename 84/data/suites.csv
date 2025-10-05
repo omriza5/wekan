@@ -1,0 +1,31 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        This method tests the notifications menu functionality.
+        ","16969","test_notifications_menu_close","tests","Sun Oct 05 04:36:19 UTC 2025","passed","Sun Oct 05 04:36:36 UTC 2025","TestHome","test_home","",""
+"","7355","test_login_with_valid_credentials","tests","Sun Oct 05 04:36:59 UTC 2025","passed","Sun Oct 05 04:37:07 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests the member settings menu functionality.
+        ","17337","test_member_setting_menu_close","tests","Sun Oct 05 04:35:55 UTC 2025","passed","Sun Oct 05 04:36:12 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the member settings menu functionality.
+        ","7220","test_member_setting_menu_open","tests","Sun Oct 05 04:36:12 UTC 2025","passed","Sun Oct 05 04:36:19 UTC 2025","TestHome","test_home","",""
+"
+        This method checks if the home page is healthy by verifying the title.
+        ","8085","test_page_health","tests","Sun Oct 05 04:36:44 UTC 2025","passed","Sun Oct 05 04:36:52 UTC 2025","TestHome","test_home","",""
+"","6513","test_page_health","tests","Sun Oct 05 04:37:07 UTC 2025","passed","Sun Oct 05 04:37:13 UTC 2025","TestLogin","test_login","",""
+"","7315","test_login_with_invalid_credentials","tests","Sun Oct 05 04:36:52 UTC 2025","passed","Sun Oct 05 04:36:59 UTC 2025","TestLogin","test_login","",""
+"
+        This method tests adding a card to a list.
+        ","36533","test_add_card_to_list","tests","Sun Oct 05 04:34:53 UTC 2025","passed","Sun Oct 05 04:35:30 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the logout functionality.
+        ","7909","test_logout","tests","Sun Oct 05 04:35:47 UTC 2025","passed","Sun Oct 05 04:35:55 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the creation of a board.
+        ","7781","test_board_creation","tests","Sun Oct 05 04:35:39 UTC 2025","passed","Sun Oct 05 04:35:47 UTC 2025","TestHome","test_home","",""
+"
+        This method tests adding a list to a board.
+        ","8936","test_add_list_to_board","tests","Sun Oct 05 04:35:30 UTC 2025","passed","Sun Oct 05 04:35:39 UTC 2025","TestHome","test_home","",""
+"
+        This method tests the notifications menu functionality.
+        ","7977","test_notifications_menu_open","tests","Sun Oct 05 04:36:36 UTC 2025","passed","Sun Oct 05 04:36:44 UTC 2025","TestHome","test_home","",""
